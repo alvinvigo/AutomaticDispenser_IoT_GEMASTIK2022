@@ -1,0 +1,70 @@
+header {
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.header {
+    width: 20vw;
+    height: 100vh;
+}
+
+.header .header-data > button {
+    width: 100%;
+    display: block;
+}
+
+.sub-header {
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 5vw;
+    background-image: url(/public/bg.png);
+    background-size: 80vw 5vw;
+}
+
+.sub-header img {
+    width: 3vw;
+    height: 3vw;
+    margin: 0px 15px 0px 15px;
+}
+
+.sub-header h5 {
+    font-size: medium;
+}
+
+.sub-header .login-btn {
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin: 0px 15px 0px 0px;
+    transition: background-color .5s;
+}
+
+.sub-header .login-btn:hover {
+    background-color: khaki;
+}
+
+.sub-header .login-btn > img {
+    width: 2vw;
+    height: 2vw;
+    margin: 0;
+}
+
+.sub-header .separated {
+    flex-grow: 1;
+}
